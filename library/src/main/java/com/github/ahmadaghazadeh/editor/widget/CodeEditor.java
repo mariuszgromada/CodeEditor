@@ -529,6 +529,10 @@ public class CodeEditor extends FrameLayout {
         else
             throw new TextNotFoundException();
     }
+    
+   public TextProcessor getTextProcessor() {
+        return editor;
+   }
 
     public void showToast(String string, boolean b) {
 
