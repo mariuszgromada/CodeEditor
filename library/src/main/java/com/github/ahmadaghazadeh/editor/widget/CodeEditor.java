@@ -197,9 +197,9 @@ public class CodeEditor extends FrameLayout {
                     if (preHeight != height) {
 
                         FrameLayout.LayoutParams recyclerViewParam = new FrameLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-                        recyclerViewParam.setMargins(0, height - 100, 0, 0);
+                        //recyclerViewParam.setMargins(0, height - 100, 0, 0);
                         recyclerView.setLayoutParams(recyclerViewParam);
-                        paramsTxtprocessor.setMargins(0, 0, 0, 100);
+                        //paramsTxtprocessor.setMargins(0, 0, 0, 100);
                         editor.setLayoutParams(paramsTxtprocessor);
                         preHeight = height ;
                     }
