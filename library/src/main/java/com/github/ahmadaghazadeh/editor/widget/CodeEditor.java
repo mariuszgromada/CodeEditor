@@ -37,10 +37,6 @@ public class CodeEditor extends FrameLayout {
     int preHeight = 0;
     private Context context;
 
-    public TextProcessor getTextProcessor() {
-        return editor;
-    }
-
     private TextProcessor editor;
     private Language language;
     private LinesCollection lineNumbers;
