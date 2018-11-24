@@ -37,7 +37,7 @@
     <color name="colorAccent">#FF8000</color>
     <color name="colorTabs">#37383A</color>
     <color name="colorTabIndicator">#FF8000</color>
-    <color name="colorDocBackground">#303030</color>
+    <color name="colorDocBackground">#1A1A1A</color>
     <color name="colorDocText">#AAB6C6</color>
     <color name="colorNumbersText">#808080</color>
     <color name="colorSelection">#214283</color>
