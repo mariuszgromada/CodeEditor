@@ -56,6 +56,7 @@ import android.view.ViewConfiguration;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Scroller;
 import android.widget.TextView;
+import android.graphics.Color;
 
 import com.github.ahmadaghazadeh.editor.R;
 import com.github.ahmadaghazadeh.editor.document.commons.LineObject;
@@ -239,7 +240,7 @@ public class TextProcessor extends AppCompatMultiAutoCompleteTextView implements
         mLineNumberPaint.setTextSize(getTextSize());
 
         mLinePaint = new StylePaint(false, false);
-        mLinePaint.setColor(mLineNumberPaint.getColor());
+        mLinePaint.setColor(Color.parseColor("#606060"));
         mLinePaint.setStyle(StylePaint.Style.STROKE);
 
 
